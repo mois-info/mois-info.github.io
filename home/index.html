@@ -12,10 +12,16 @@
 <div id="loading">
 <progress></progress>
 </div>
+<article>
+<h5 id="title1">読み込み中...</h5>
+<p id="content1">Loading...</p>
+</article>
 <script>
 window.onload = function()
 {
 setTimeout('document.getElementById("loading").innerHTML = "";', 2500);
+setTimeout('document.getElementById("title1").innerText = "化学 ロケット";', 1500);
+setTimeout('document.getElementById("content1").innerText = "締切:5/10 科学授業開始時<br>評価:形成的評価";', 1750);
 };
 </script>
 </body>
