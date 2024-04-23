@@ -35,6 +35,18 @@
 <h5 id="title1">読み込み中...</h5>
 <p id="content1">Loading...</p>
 </article>
+<article class="no-padding">
+<img class="responsive medium" src="../black.png" id="image1">
+<div class="absolute bottom left right padding bottom-shadow white-text">
+<nav>
+<h5 id="title2">読み込み中...</h5>
+<div class="max"></div>
+<button class="circle transparent">
+<i>more_vert</i>
+</button>
+</nav>
+</div>
+</article>
 </main>
 <script>
 window.onload = function()
@@ -42,6 +54,7 @@ window.onload = function()
 setTimeout('document.getElementById("loading").innerHTML = "";', 2500);
 setTimeout('document.getElementById("title1").innerText = "化学 ロケット";', 1500);
 setTimeout('document.getElementById("content1").innerHTML = "締切:5/10 科学授業開始時<br>評価:形成的評価<br>提出場所:Teams(3-C)";', 1750);
+setTimeout('document.getElementById("title2").innerText = "課題情報をもっと見る";', 2000);
 };
 </script>
 </body>
